@@ -1,0 +1,10 @@
+name: CustomInstruments
+version: '${version}'
+main: net.momirealms.custominstruments.CustomInstruments
+api-version: 1.16
+authors: [ XiaoMoMi ]
+commands:
+  custominstruments:
+    usage: /custominstruments <instruments/reload/toggle>
+    permission-message: No permission
+    permission: custominstruments.user

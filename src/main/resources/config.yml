@@ -1,0 +1,45 @@
+#基本设置
+config:
+  #乐器的音量，在多少范围内的玩家能听到
+  volume: 16
+  #进入演奏模式的冷却时间(ms)
+  cooldown: 1000
+  #演奏范围扇形角度(0-360)
+  space_angle: 180
+  #Bossbar的颜色
+  bossbar: YELLOW
+#消息设置
+#MiniMessage使用文档：https://docs.adventure.kyori.net/minimessage/format.html
+messages:
+  prefix: '<gradient:#FFBB89:#7B6AE0>[CustomInstruments]</gradient> '
+  cooldown: "<white>你的操作太频繁了，请慢一点吧!</white>"
+  reload: '<white>重载完成!</white>'
+  no-console: '<white>这个指令只能由玩家执行!</white>'
+  give-item: '<white>成功给予玩家 {player} 乐器 {item}.</white>'
+  get-item: '<white>成功获取乐器 {item}.</white>'
+  not-online: '<white>玩家 {player} 不在线.</white>'
+  no-instrument: '<white>这个乐器不存在!</white>'
+  no-perm: '<white>你没有权限执行这个指令!</white>'
+  toggle: '<white>成功切换布局!</white>'
+#布局一
+#单排
+layout-1:
+  #UI
+  ui: '값갑'
+  #指针的图片
+  pointer: '갭'
+  #校准指针位置
+  offset_pointer: ''
+  #相邻音BossBar偏移字符
+  space_offset: ''
+#布局二
+#双排
+layout-2:
+  #UI
+  ui: '갮갯'
+  #指针的图片
+  pointer: '갭'
+  #校准指针位置
+  offset_pointer: ''
+  #相邻音BossBar偏移字符
+  space_offset: ''
